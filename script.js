@@ -9,12 +9,4 @@ nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
   menuButton.setAttribute("aria-expanded", "false");
 }));
 document.querySelector("#year").textContent = new Date().getFullYear();
-document.querySelector("#contact-form").addEventListener("submit", event => {
-  event.preventDefault();
-  const name = document.querySelector("#name").value.trim();
-  const email = document.querySelector("#email").value.trim();
-  const message = document.querySelector("#message").value.trim();
-  const subject = encodeURIComponent("Website enquiry from " + name);
-  const body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nProject details:\n" + message);
-  window.location.href = "mailto:varunjimmymathew.dev@gmil.com?subject=" + subject + "&body=" + body;
-});
+// The contact form submits directly to FormSubmit using the HTML form action.

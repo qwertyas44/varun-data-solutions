@@ -20,6 +20,6 @@ Open `index.html` in a browser. No build tools or paid software required.
 
 ## Before publishing
 - Confirm the brand name “Varun Data Solutions” is the name you want to use.
-- Current enquiry email in `index.html` and `script.js`: `varunjimmymathew.dev@gmil.com`. Confirm it is spelled correctly before publishing.
-- The contact form opens the visitor's email application with a prefilled draft. It does not send messages itself or store submissions. A server-side form service would be needed for direct form submissions.
+- Current enquiry email: `varunjimmymathew.dev@gmail.com`.
+- The contact form posts to FormSubmit for forwarding to `varunjimmymathew.dev@gmail.com`. On the first submission, FormSubmit sends an activation email that you must confirm before forwarding is enabled. Check FormSubmit's current terms/privacy handling before use; avoid collecting sensitive information.
 - The sample workflow is illustrative; it is clearly identified as a demo and links to the GitHub CSV cleaner project.
