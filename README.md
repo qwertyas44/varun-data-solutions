@@ -20,6 +20,6 @@ Open `index.html` in a browser. No build tools or paid software required.
 
 ## Before publishing
 - Confirm the brand name “Varun Data Solutions” is the name you want to use.
-- Confirm the email address in `index.html` and `script.js`.
+- Current enquiry email in `index.html` and `script.js`: `varunjimmymathew.dev@gmil.com`. Confirm it is spelled correctly before publishing.
 - The contact form opens the visitor's email application with a prefilled draft. It does not send messages itself or store submissions. A server-side form service would be needed for direct form submissions.
 - The sample workflow is illustrative; it is clearly identified as a demo and links to the GitHub CSV cleaner project.

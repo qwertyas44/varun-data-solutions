@@ -16,5 +16,5 @@ document.querySelector("#contact-form").addEventListener("submit", event => {
   const message = document.querySelector("#message").value.trim();
   const subject = encodeURIComponent("Website enquiry from " + name);
   const body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nProject details:\n" + message);
-  window.location.href = "mailto:varunjimmymathew@gmail.com?subject=" + subject + "&body=" + body;
+  window.location.href = "mailto:varunjimmymathew.dev@gmil.com?subject=" + subject + "&body=" + body;
 });
